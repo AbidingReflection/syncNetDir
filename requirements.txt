@@ -1,0 +1,2 @@
+# SyncNetDir requirements
+PyYAML>=6.0

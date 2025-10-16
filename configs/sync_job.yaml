@@ -1,0 +1,19 @@
+source_dir: 'C:\Users\decjg\projects\qTest_targeted_data_extractor'
+dest_dir: 'C:\Users\decjg\test_out\qTest_targeted_data_extractor'
+
+excludes:
+  root_dirs:
+    - logs
+    - .git
+    - venv
+    - output
+
+  specific_paths:
+    - 'scripts\output'
+
+  recursive_dirs:
+    - __pycache__
+
+  file_patterns:
+    - '*.log'
+    - '*.tmp'
